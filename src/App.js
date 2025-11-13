@@ -7,10 +7,13 @@ import Button from "./onclickEventHandling/Button";
 import Image from "./onclickEventHandling/Image";
 import Counter from "./useState-counter/Counter";
 import Inputhandler from "./input-handling/input";
+import DoubleCounter from "./updaterFunction-useState/DoubleCounter";
+import CarDetails from "./updaterFunction-useState/CarDetails";
 function App() {
   return (
     <div className="App">
-      <Inputhandler/>
+      <DoubleCounter/>
+      <CarDetails/>
     </div>
   );
 }
