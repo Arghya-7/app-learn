@@ -9,11 +9,13 @@ import Counter from "./useState-counter/Counter";
 import Inputhandler from "./input-handling/input";
 import DoubleCounter from "./updaterFunction-useState/DoubleCounter";
 import CarDetails from "./updaterFunction-useState/CarDetails";
+import CustomListManupulation from "./custom-list-manupulation/CustomListManupulation";
+import CarObjectHandling from "./custom-list-manupulation/CustomCarManupulation";
 function App() {
   return (
     <div className="App">
-      <DoubleCounter/>
-      <CarDetails/>
+      <CustomListManupulation />
+      <CarObjectHandling />
     </div>
   );
 }
