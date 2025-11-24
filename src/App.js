@@ -12,10 +12,11 @@ import CarDetails from "./updaterFunction-useState/CarDetails";
 import CustomListManupulation from "./custom-list-manupulation/CustomListManupulation";
 import CarObjectHandling from "./custom-list-manupulation/CustomCarManupulation";
 import Timer from "./timer/Timer";
+import ComponentA from "./create-context-and-update-context/ComponentA";
 function App() {
   return (
     <div className="App">
-      <Timer />
+      <ComponentA />
     </div>
   );
 }
