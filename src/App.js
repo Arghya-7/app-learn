@@ -11,11 +11,11 @@ import DoubleCounter from "./updaterFunction-useState/DoubleCounter";
 import CarDetails from "./updaterFunction-useState/CarDetails";
 import CustomListManupulation from "./custom-list-manupulation/CustomListManupulation";
 import CarObjectHandling from "./custom-list-manupulation/CustomCarManupulation";
+import Timer from "./timer/Timer";
 function App() {
   return (
     <div className="App">
-      <CustomListManupulation />
-      <CarObjectHandling />
+      <Timer />
     </div>
   );
 }
