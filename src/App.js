@@ -15,11 +15,11 @@ import Timer from "./timer/Timer";
 import ComponentA from "./create-context-and-update-context/ComponentA";
 import UseRefUse from "./useRef-usecase/UseRefUse";
 import InputUserRef from "./useRef-usecase/InputUseRef";
+import StopWatch from "./stopwatch/StopWatch";
 function App() {
   return (
     <div className="App">
-      <UseRefUse />
-      <InputUserRef />
+      <StopWatch />
     </div>
   );
 }
