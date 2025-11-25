@@ -13,10 +13,13 @@ import CustomListManupulation from "./custom-list-manupulation/CustomListManupul
 import CarObjectHandling from "./custom-list-manupulation/CustomCarManupulation";
 import Timer from "./timer/Timer";
 import ComponentA from "./create-context-and-update-context/ComponentA";
+import UseRefUse from "./useRef-usecase/UseRefUse";
+import InputUserRef from "./useRef-usecase/InputUseRef";
 function App() {
   return (
     <div className="App">
-      <ComponentA />
+      <UseRefUse />
+      <InputUserRef />
     </div>
   );
 }
