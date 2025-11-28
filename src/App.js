@@ -16,10 +16,24 @@ import ComponentA from "./create-context-and-update-context/ComponentA";
 import UseRefUse from "./useRef-usecase/UseRefUse";
 import InputUserRef from "./useRef-usecase/InputUseRef";
 import StopWatch from "./stopwatch/StopWatch";
+import {BrowserRouter,Routes, Route} from "react-router-dom";
+import Home from "./page/homepage/Home";
+import About from "./page/About/About";
+import NotFound from "./page/NotFound/NotFound";
+import Contact from "./page/contact/Contact";
+import User from "./page/User/User";
 function App() {
   return (
     <div className="App">
-      <StopWatch />
+        <BrowserRouter>
+            <Routes>
+                <Route exact path="/" element={ <Home />} />
+                <Route exact path="/about" element={<About />} />
+                <Route exact path="/contact" element={< Contact/>} />
+                <Route exact path="/user/:name" element={<User />} />
+                <Route exact path="*" element={<NotFound />} />
+            </Routes>
+        </BrowserRouter>
     </div>
   );
 }
